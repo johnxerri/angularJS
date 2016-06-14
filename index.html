@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!-- Initier l'application dans la balise HTML -->
+<html ng-app="newApp">
+
+	<head>
+
+		<meta charset="utf-8" />
+		<title>Exo AngularJS</title>
+
+		<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+
+		<!--[if lt IE 8]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+
+		<!--[if lt IE 7]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+
+	</head>
+
+	<body>
+
+		<header role="header" ng-controller="HeaderCtrl">
+			<nav role="nav">
+				<ul>
+					<!-- Les liens AngularJS (avec route) commence par '#/' -->
+					<li><a href="#/">Home</a></li>
+					<li><a href="#/portfolio">Portfolio</a></li>
+					<li><a href="#/about">About</a></li>
+					<li><a href="#/contacts">Contacts</a></li>
+					<!-- Les routes sont configurées dans app.js -->
+				</ul>
+			</nav>
+			<section role="section">
+				<form ng-submit="addCookie()">
+					<input type="text" ng-model="cookieContent" />
+				</form>
+			</section>
+		</header>
+
+		<!-- Configuration de la vue -->
+		<main role="main" ng-view>
+
+		</main>
+
+		<footer role="footer">
+			Under MIT licence.
+		</footer>
+		
+
+		<!-- CDN JQuery -->
+		<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+
+		<!-- CDN AngularJS -->
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+
+		<!-- CDN module $route -->
+		<script type="text/javascript" src="https://code.angularjs.org/1.5.6/angular-route.min.js"></script>
+
+		<!-- CDN module complémentaire $cookies -->
+		<script type="text/javascript" src="https://code.angularjs.org/1.5.6/angular-cookies.min.js"></script>
+
+		<!-- Script de l'application -->
+		<script type="text/javascript" src="assets/js/app.js"></script>
+
+		<!-- Services AngularsJS -->
+		<script type="text/javascript" src="assets/js/services/portfolioServ.js"></script>
+
+		<!-- Controllers Angular -->
+		<script type="text/javascript" src="assets/js/controllers/headerCtrl.js"></script>
+		<script type="text/javascript" src="assets/js/controllers/homeCtrl.js"></script>
+		<script type="text/javascript" src="assets/js/controllers/contactsCtrl.js"></script>
+		<script type="text/javascript" src="assets/js/controllers/portfolioCtrl.js"></script>
+
+	</body>
+
+</html>

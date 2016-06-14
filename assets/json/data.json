@@ -1,0 +1,278 @@
+[
+	{
+		"id": 1,
+		"name": "Audi A8",
+		"brand": "Audi",
+		"model": "a8",
+		"image": {
+			"0": "assets/img/cars/audi-r8.jpg"
+		},
+		"price": 70,
+		"price_day": 320,
+		"status": "booked",
+		"enabled": 1,
+		"category": "sport"
+	},
+	{
+		"id": 2,
+		"name": "BMW Serie 2",
+		"brand": "BMW",
+		"model": "Serie 2",
+		"image": {
+			"0": "assets/img/cars/BMW-serie-2.jpg",
+			"1": "assets/img/cars/BMW-serie-2.jpg"
+		},
+		"price": 70,
+		"price_day": 320,
+		"status": "available",
+		"enabled": 1,
+		"category": "berline"
+	},
+	{
+		"id": 3,
+		"name": "BMW 320i",
+		"brand": "BMW",
+		"model": "320i",
+		"image": {
+			"0": "assets/img/cars/BMW-320i.jpg"
+		},
+		"price": 70,
+		"price_day": 320,
+		"status": "available",
+		"enabled": 1,
+		"category": "sport"
+	},
+	{
+		"id": 4,
+		"name": "Citroen Cactus",
+		"brand": "Citroen",
+		"model": "Cactus",
+		"image": {
+			"0": "assets/img/cars/citroen-cactus.jpg"
+		},
+		"price": 70,
+		"price_day": 320,
+		"status": "available",
+		"enabled": 1,
+		"category": "family"
+	},
+	{
+		"id": 5,
+		"name": "Peugeot 308",
+		"brand": "Peugeot",
+		"model": "308",
+		"image": {
+			"0": "assets/img/cars/Peugeot-308.jpg",
+			"1": "assets/img/cars/BMW-serie-2.jpg"
+		},
+		"price": 70,
+		"price_day": 320,
+		"status": "available",
+		"enabled": 1,
+		"category": "break"
+	},
+	{
+		"id": 6,
+		"name": "Ford Mustang",
+		"brand": "BMW",
+		"model": "Mustang",
+		"image": {
+			"0": "assets/img/cars/ford-mustang.jpg"
+		},
+		"price": 70,
+		"price_day": 320,
+		"status": "available",
+		"enabled": 1,
+		"category": "sport"
+	},
+	{
+		"id": 7,
+		"name": "Mercedes GLC",
+		"brand": "Mercedes",
+		"model": "GLC",
+		"image": {
+			"0": "assets/img/cars/Mercedes-glc.jpg"
+		},
+		"price": 70,
+		"price_day": 320,
+		"status": "available",
+		"enabled": 1,
+		"category": "suv"
+	},
+	{
+		"id": 8,
+		"name": "Renaud Clio",
+		"brand": "Renaud",
+		"model": "Clio",
+		"image": {
+			"0": "assets/img/cars/renaud-clio.jpg"
+		},
+		"price": 70,
+		"price_day": 320,
+		"status": "available",
+		"enabled": 1,
+		"category": "citadine"
+	},
+	{
+		"id": 9,
+		"name": "Audi A8",
+		"brand": "Audi",
+		"model": "a8",
+		"image": {
+			"0": "assets/img/cars/audi-r8.jpg"
+		},
+		"price": 70,
+		"price_day": 320,
+		"status": "booked",
+		"enabled": 1,
+		"category": "luxe"
+	},
+	{
+		"id": 10,
+		"name": "BMW Serie 2",
+		"brand": "BMW",
+		"model": "Serie 2",
+		"image": {
+			"0": "assets/img/cars/BMW-serie-2.jpg",
+			"1": "assets/img/cars/BMW-serie-2.jpg"
+		},
+		"price": 70,
+		"price_day": 320,
+		"status": "available",
+		"enabled": 1,
+		"category": "berline"
+	},
+	{
+		"id": 11,
+		"name": "BMW 320i",
+		"brand": "BMW",
+		"model": "320i",
+		"image": {
+			"0": "assets/img/cars/BMW-320i.jpg"
+		},
+		"price": 70,
+		"price_day": 320,
+		"status": "available",
+		"enabled": 1,
+		"category": "coupe"
+	},
+	{
+		"id": 12,
+		"name": "Citroen Cactus",
+		"brand": "Citroen",
+		"model": "Cactus",
+		"image": {
+			"0": "assets/img/cars/citroen-cactus.jpg"
+		},
+		"price": 70,
+		"price_day": 320,
+		"status": "available",
+		"enabled": 1,
+		"category": "monospace"
+	},
+	{
+		"id": 13,
+		"name": "Peugeot 308",
+		"brand": "Peugeot",
+		"model": "308",
+		"image": {
+			"0": "assets/img/cars/Peugeot-308.jpg",
+			"1": "assets/img/cars/BMW-serie-2.jpg"
+		},
+		"price": 70,
+		"price_day": 320,
+		"status": "available",
+		"enabled": 1,
+		"category": "break"
+	},
+	{
+		"id": 14,
+		"name": "Ford Mustang",
+		"brand": "BMW",
+		"model": "Mustang",
+		"image": {
+			"0": "assets/img/cars/ford-mustang.jpg"
+		},
+		"price": 70,
+		"price_day": 320,
+		"status": "available",
+		"enabled": 1,
+		"category": "luxe"
+	},
+	{
+		"id": 15,
+		"name": "Mercedes GLC",
+		"brand": "Mercedes",
+		"model": "GLC",
+		"image": {
+			"0": "assets/img/cars/Mercedes-glc.jpg"
+		},
+		"price": 70,
+		"price_day": 320,
+		"status": "available",
+		"enabled": 1,
+		"category": "suv"
+	},
+	{
+		"id": 16,
+		"name": "Renaud Clio",
+		"brand": "Renaud",
+		"model": "Clio",
+		"image": {
+			"0": "assets/img/cars/renaud-clio.jpg"
+		},
+		"price": 70,
+		"price_day": 320,
+		"status": "available",
+		"enabled": 1,
+		"category": "citadine"
+	},
+	{
+		"id": 17,
+		"name": "BMW Serie 2",
+		"brand": "BMW",
+		"model": "Serie 2",
+		"image": {
+			"0": "assets/img/cars/BMW-serie-2.jpg",
+			"1": "assets/img/cars/BMW-serie-2.jpg"
+		},
+		"price": 70,
+		"price_day": 320,
+		"status": "available",
+		"enabled": 1,
+		"category": "midBerline"
+	},
+	{
+		"id": 18,
+		"name": "BMW Serie 2",
+		"brand": "BMW",
+		"model": "Serie 2",
+		"image": {
+			"0": "assets/img/cars/BMW-serie-2.jpg",
+			"1": "assets/img/cars/BMW-serie-2.jpg"
+		},
+		"price": 70,
+		"price_day": 320,
+		"status": "available",
+		"enabled": 1,
+		"category": "famBerline"
+	}
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

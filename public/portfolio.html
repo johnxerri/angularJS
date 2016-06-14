@@ -1,0 +1,11 @@
+<h1>Portfolio</h1>
+
+<!-- Directive ng-repeat équivalent de la boucle for() -->
+<article role="article" ng-repeat="post in dataObj">
+
+	<img src="{{post.image[0]}}">
+	<p>{{post.name}}</p>
+	<p>{{post.category}}</p>
+	<p>{{post.price_day}}$/jour</p>
+
+</article>
